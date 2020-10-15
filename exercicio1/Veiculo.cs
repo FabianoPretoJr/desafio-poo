@@ -72,7 +72,7 @@ namespace exercicio1
         {
             if (IsLigado)
             {
-                this.Velocidade = this.Velocidade + 20;
+                this.velocidade = this.velocidade + 20;
 
                 Console.WriteLine("Velocidade = " + this.Velocidade);
             }
@@ -91,7 +91,7 @@ namespace exercicio1
             }
             else
             {
-                this.LitrosCombustivel = this.LitrosCombustivel + combustivel;
+                this.litrosCombustivel = this.litrosCombustivel + combustivel;
 
                 Console.WriteLine("Tem " + this.LitrosCombustivel + " litros no tanque de combustivel");
             }            
@@ -100,7 +100,7 @@ namespace exercicio1
         public void Frear()
         {
             if (this.Velocidade > 0){
-                this.Velocidade = this.Velocidade - 20;
+                this.velocidade = this.velocidade - 20;
 
                 Console.WriteLine("Velocidade = " + this.Velocidade);
             }
@@ -112,7 +112,7 @@ namespace exercicio1
 
         public void Pintar(string cor)
         {
-            this.Cor = cor;
+            this.cor = cor;
 
             Console.WriteLine("O veículo foi pintado de " + this.Cor);
         }
@@ -121,7 +121,7 @@ namespace exercicio1
         {
             if (!IsLigado)
             {
-                this.IsLigado = true;
+                this.isligado = true;
 
                 Console.WriteLine("Veículo ligado!");
             }           
@@ -131,7 +131,7 @@ namespace exercicio1
         {
             if (IsLigado && this.Velocidade == 0)
             {
-                this.IsLigado = false;
+                this.isligado = false;
 
                 Console.WriteLine("Veículo desligado!");
             }
