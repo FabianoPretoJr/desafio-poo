@@ -4,23 +4,69 @@ namespace exercicio1
 {
     public class Veiculo
     {       
-        public string Marca { get; set; }
-
-        public string Modelo { get; set; }
-
-        public string Placa { get; set; }
-
-        public string Cor { get; set; }
-
-        public float Km { get; set; }
-
-        public bool IsLigado { get; set; }
-
-        public int LitrosCombustivel { get; set; }
-
-        public int Velocidade { get; set; }
-
-        public double Preco { get; set; }
+        private string marca;
+        public string Marca
+        {
+            get { return marca; }
+            set { marca = value; }
+        }
+        
+        private string modelo;
+        public string Modelo
+        {
+            get { return modelo; }
+            set { modelo = value; }
+        }
+        
+        private string placa;
+        public string Placa
+        {
+            get { return placa; }
+            set { placa = value; }
+        }
+        
+        private string cor;
+        public string Cor
+        {
+            get { return cor; }
+            set { cor = value; }
+        }
+        
+        private float km;
+        public float Km
+        {
+            get { return km; }
+            set { km = value; }
+        }
+        
+        private bool isligado;
+        public bool IsLigado
+        {
+            get { return isligado; }
+            set { isligado = value; }
+        }
+        
+        private int litrosCombustivel;
+        public int LitrosCombustivel
+        {
+            get { return litrosCombustivel; }
+            set { litrosCombustivel = value; }
+        }
+        
+        private int velocidade;
+        public int Velocidade
+        {
+            get { return velocidade; }
+            set { velocidade = value; }
+        }
+        
+        private double preco;
+        public double Preco
+        {
+            get { return preco; }
+            set { preco = value; }
+        }
+        
 
         public void Acelerar()
         {
