@@ -4,6 +4,20 @@ namespace exercicio2
 {
     public class Produto
     {
+        public Produto()
+        {
+            this.nome = "";
+            this.preco = 0.0;
+            this.qtd = 0;
+        }
+
+        public Produto(string nome, double preco, int qtd)
+        {
+            this.nome = nome;
+            this.preco = preco;
+            this.qtd = qtd;
+        }
+
         private string nome;
         public string Nome
         {
@@ -18,21 +32,11 @@ namespace exercicio2
             set { preco = value; }
         }
         
-        private int quantidade;
-        public int Quantidade
+        private int qtd;
+        public int Qtd
         {
-            get { return quantidade; }
-            set { quantidade = value; }
-        }
-        
-        public void Produto()
-        {
-
-        }
-
-        public void Produto(string nome, double preco, int qtd)
-        {
-            
+            get { return qtd; }
+            set { qtd = value; }
         }
     }
 }
