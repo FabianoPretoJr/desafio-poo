@@ -30,5 +30,24 @@ namespace exercicio4
             get { return idade; }
             set { idade = value; }
         }
+
+        public void ListarPessoas(List<Pessoa> pessoas)
+        {
+            int maisVelho = 0;
+            string nomeMaisVelho = "";
+
+            for(int i = 0; i < pessoas.Count; i++)
+            {
+                Pessoa p = pessoas[i];
+
+                if (p.Idade > maisVelho)
+                {
+                    maisVelho = p.Idade;
+                    nomeMaisVelho = p.Nome;
+                }
+            }
+
+            Console.WriteLine("Pessoa mais velha: " + nomeMaisVelho);
+        }
     }
 }

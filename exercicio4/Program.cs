@@ -18,21 +18,7 @@ namespace exercicio4
             pessoas.Add(p3);
             pessoas.Add(p4);
 
-            int maisVelho = 0;
-            string nomeMaisVelho = "";
-
-            for(int i = 0; i < pessoas.Count; i++)
-            {
-                Pessoa p = pessoas[i];
-
-                if (p.Idade > maisVelho)
-                {
-                    maisVelho = p.Idade;
-                    nomeMaisVelho = p.Nome;
-                }
-            }
-
-            Console.WriteLine("Pessoa mais velha: " + nomeMaisVelho);
+            p1.ListarPessoas(pessoas);
         }
     }
 }
