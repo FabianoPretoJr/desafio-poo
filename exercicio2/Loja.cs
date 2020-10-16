@@ -92,9 +92,14 @@ namespace exercicio2
             for(int i = 0; i < this.Livros.Count; i++)
             {
                 Livro l = this.Livros[i];
-                VideoGame vg = this.VideoGames[i];
 
-                patrimonio = patrimonio + l.Preco + vg.Preco;
+                patrimonio = patrimonio + l.Preco;
+            }
+            for(int j = 0; j < this.VideoGames.Count; j++)
+            {
+                VideoGame vg = this.VideoGames[j];
+
+                patrimonio = patrimonio + vg.Preco;
             }
 
             return patrimonio;
