@@ -1,0 +1,13 @@
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\obj\Debug\netcoreapp3.1\exercicio4.csprojAssemblyReference.cache
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\obj\Debug\netcoreapp3.1\exercicio4.AssemblyInfoInputs.cache
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\obj\Debug\netcoreapp3.1\exercicio4.AssemblyInfo.cs
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\obj\Debug\netcoreapp3.1\exercicio4.csproj.CoreCompileInputs.cache
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\bin\Debug\netcoreapp3.1\exercicio4.exe
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\bin\Debug\netcoreapp3.1\exercicio4.deps.json
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\bin\Debug\netcoreapp3.1\exercicio4.runtimeconfig.json
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\bin\Debug\netcoreapp3.1\exercicio4.runtimeconfig.dev.json
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\bin\Debug\netcoreapp3.1\exercicio4.dll
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\bin\Debug\netcoreapp3.1\exercicio4.pdb
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\obj\Debug\netcoreapp3.1\exercicio4.dll
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\obj\Debug\netcoreapp3.1\exercicio4.pdb
+C:\Users\FOEU\OneDrive - GFT Technologies SE\Desktop\Projetos\exercicios-poo\exercicio4\obj\Debug\netcoreapp3.1\exercicio4.genruntimeconfig.cache
