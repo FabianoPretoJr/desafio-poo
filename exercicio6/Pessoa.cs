@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using static System.Console;
 
 namespace exercicio6
 {
@@ -33,19 +35,22 @@ namespace exercicio6
 
         public void VerificarJessica(List<Pessoa> pessoas)
         {
+            bool aux = true;
+
             for(int i = 0; i < pessoas.Count; i++)
             {
                 Pessoa p = pessoas[i];
 
                 if (p.Nome == "Jessica")
                 {
-                    Console.WriteLine("Jessica existe, e sua idade é: " + p.Idade);
-                }
-                else
-                {
-                    Console.WriteLine("Jessica não está na lista");
-                    break;
-                }
+                    Console.WriteLine("Jessica existe, e sua idade é: " + p.Idade);  
+                    aux = false;
+                    break;                 
+                }            
+            }
+            if (aux)
+            {
+                Console.WriteLine("Jessica não está na lista");
             }
         }
     }
