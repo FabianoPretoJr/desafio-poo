@@ -16,7 +16,7 @@ namespace exercicio5
             pessoas.Add(p1);
             pessoas.Add(p2);
             pessoas.Add(p3);
-            pessoas.Add(p4);
+            pessoas.Add(p4);    
 
             Console.WriteLine("\nLista antes da verificação: \n");
             p1.ListarPessoas(pessoas);
