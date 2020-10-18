@@ -6,25 +6,28 @@ namespace exercicio3
     {
         public Personagem()
         {
-            this.nome = "";
-            this.vida = 0;
-            this.mana = 0;
-            this.xp = 0;
-            this.inteligencia = 0;
-            this.forca = 0;
-            this.level = 0;
+            this.Nome = "";
+            this.Vida = 0;
+            this.Mana = 0;
+            this.Xp = 0;
+            this.Inteligencia = 0;
+            this.Forca = 0;
+            this.Level = 0;
         }
 
         public Personagem(string nome, int vida, int mana, float xp, int inteligencia, int forca, int level)
         {
-            this.nome = nome;
-            this.vida = vida;
-            this.mana = mana;
-            this.xp = xp;
-            this.inteligencia = inteligencia;
-            this.forca = forca;
-            this.level = level;
+            this.Nome = nome;
+            this.Vida = vida;
+            this.Mana = mana;
+            this.Xp = xp;
+            this.Inteligencia = inteligencia;
+            this.Forca = forca;
+            this.Level = level;
+            NovoPersonagem();
         }
+
+        private static int ContadorPersonagem;
 
         private string nome;
         public string Nome
@@ -75,9 +78,20 @@ namespace exercicio3
             set { level = value; }
         }
         
-        public void lvlUp()
+        public virtual void LvlUp()
         {
             
+        }
+
+        public static void NovoPersonagem()
+        {
+            ContadorPersonagem++;
+        }
+
+        public static void ContadorDePersonagens()
+        {
+            Console.WriteLine("\n---------------------------------------------------------\n");
+            Console.WriteLine("Número de personagens existentes: " + ContadorPersonagem + "\n\n");
         }
     }
 }
