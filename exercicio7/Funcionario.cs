@@ -1,5 +1,3 @@
-using System;
-
 namespace exercicio7
 {
     public class Funcionario

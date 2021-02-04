@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FOEU\\OneDrive - GFT Technologies SE\\Desktop\\Projetos\\exercicios-poo\\exercicio3\\exercicio3.csproj",
+      "projectUniqueName": "C:\\Users\\FOEU\\My Private Documents\\Projetos\\desafio-poo\\exercicios-poo\\exercicio3\\exercicio3.csproj",
       "projectName": "exercicio3",
-      "projectPath": "C:\\Users\\FOEU\\OneDrive - GFT Technologies SE\\Desktop\\Projetos\\exercicios-poo\\exercicio3\\exercicio3.csproj",
+      "projectPath": "C:\\Users\\FOEU\\My Private Documents\\Projetos\\desafio-poo\\exercicios-poo\\exercicio3\\exercicio3.csproj",
       "packagesPath": "C:\\Users\\FOEU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FOEU\\OneDrive - GFT Technologies SE\\Desktop\\Projetos\\exercicios-poo\\exercicio3\\obj\\",
+      "outputPath": "C:\\Users\\FOEU\\My Private Documents\\Projetos\\desafio-poo\\exercicios-poo\\exercicio3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FOEU\\AppData\\Roaming\\NuGet\\NuGet.Config"

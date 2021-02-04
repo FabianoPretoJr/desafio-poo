@@ -12,7 +12,7 @@ namespace exercicio7
         public Vendedor(string nome, int idade, double salario) : base(nome, idade, salario)
         {
 
-        } 
+        }
 
         public override double Bonificar()
         {
